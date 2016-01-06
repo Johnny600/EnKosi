@@ -1,6 +1,8 @@
 # EnKosi
 This application helps you take screenshots of websites and their current state. It is an engine that can be run in the background.
 
+Best suited for functional testing. as you parse commands using JS to PhantomJS and can be modified.
+
 Kindly note that its in its alpha state and you(besides me) will help publicly push for a stable v3 :)
 
 David 'cronus'
