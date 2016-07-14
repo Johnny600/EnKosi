@@ -98,7 +98,7 @@ class DarkMeta
 			}
 		//Begin to compile the image 
 		//Folder root
-		define("folder_name", "enkosi2");
+		define("folder_name", "");
 		$image_file_dir_bin = $_SERVER['DOCUMENT_ROOT'].folder_name.DIRECTORY_SEPARATOR.'bin'.DIRECTORY_SEPARATOR;
 		$image_file_dir_cache = $_SERVER['DOCUMENT_ROOT'].folder_name.DIRECTORY_SEPARATOR.'cache'.DIRECTORY_SEPARATOR;
 		$image_file_dir_jobs = $_SERVER['DOCUMENT_ROOT'].folder_name.DIRECTORY_SEPARATOR.'jobs'.DIRECTORY_SEPARATOR;
