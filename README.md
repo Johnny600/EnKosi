@@ -1,25 +1,32 @@
 # EnKosi
-This application helps you take screenshots of websites and their current state. It is an engine that can be run in the background.
+Created Version 3 on 14th July 2016
 
-Best suited for functional testing. as you parse commands using JS to PhantomJS and can be modified.
+You can use the script below to help intergrate phantomjs with PHP website to take screenshots
+If you wanna change what you can scrape/test, please edit from line 165 to 183 on the /class/darkmeta.php file thanks
 
-Kindly note that its in its alpha state and you(besides me) will help publicly push for a stable v3 :)
+New features:
+Faster phantomjs scripting
+Less logic done on objects
+clean pure, simple code blocks
 
-David 'cronus'
+Please edit line 12 of index.php, to specify the website you wanna test, or not and just let the script take pics of google
+
+Email me if you are angry and upset, and i will fix the issue,
+Or drop something on the issue list
+
+Email
 davidntobeko@gmail.com
 
-Install:
-Please change define('project_name', 'en_kosi_v3_alph'); to define('project_name', '');
 
 USES:
 
-$en_kosi_core = new en_kosi_core();
+if you want to inherit the whole class:
+$DarkMeta = new DarkMeta();
 
-initialises the entire class
+To take a screenshot of the website:
+$DarkMeta->URL_GET('http://www.gmail.com:80');
 
-There after, depending on your resource, you access as an object through a method:
-$en_kosi_core->URL_GET($prod);
-
-Runs a screengrab and saves to /cache folder
+If you want to know if the website is up:
+$DarkMeta->url_heartbeat('http://www.gmail.com:80');
 
 
