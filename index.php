@@ -9,7 +9,7 @@ require_once('/class/darkmeta.php');
 $DarkMeta = new DarkMeta();
 
 //sterilz the url
-$DarkMeta->url_heartbeat('http://www.vodacom.co.za:80');
+$DarkMeta->url_heartbeat('http://www.gmail.com:80');
 
 $DarkMeta->URL_GET($DarkMeta->url_host);
 
