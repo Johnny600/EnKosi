@@ -17,10 +17,9 @@ Or drop something on the issue list
 Email
 davidntobeko@gmail.com
 
-<div class=class="highlight highlight-text-html-php">
-<pre>
+<b>Stored images are found on 'Cache' folder thats automatically generated.</b>
+<br>
 USES:
-
 if you want to inherit the whole class:
 $DarkMeta = new DarkMeta();
 
