@@ -17,6 +17,7 @@ Or drop something on the issue list
 Email
 davidntobeko@gmail.com
 
+<pre>
 <b>Stored images are found on 'Cache' folder thats automatically generated.</b>
 <br>
 USES:
