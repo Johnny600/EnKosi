@@ -25,7 +25,12 @@ if you want to inherit the whole class:
 $DarkMeta = new DarkMeta();
 
 To take a screenshot of the website:
-$DarkMeta->URL_GET('http://www.gmail.com:80');
+<span class="p1-s1">
+<span class="p1-smi>$DarkMeta</span>
+<span class="p1-k">-></span>
+<span class="p1-c1>URL_GET</span>
+"('http://www.gmail.com:80');"
+</span>
 
 If you want to know if the website is up:
 $DarkMeta->url_heartbeat('http://www.gmail.com:80');
