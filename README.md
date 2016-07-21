@@ -21,13 +21,19 @@ davidntobeko@gmail.com
 <b>Stored images are found on 'Cache' folder thats automatically generated.</b>
 <br>
 USES:
+<span style="color:red">
 if you want to inherit the whole class:
+</span>
 $DarkMeta = new DarkMeta();
 
+<span style="color:red">
 To take a screenshot of the website:
+</span>
 $DarkMeta->URL_GET('http://www.gmail.com:80');
 
+<span style="color:red">
 If you want to know if the website is up:
+</span>
 $DarkMeta->url_heartbeat('http://www.gmail.com:80');
 </pre>
 </div>
