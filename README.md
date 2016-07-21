@@ -17,7 +17,8 @@ Or drop something on the issue list
 Email
 davidntobeko@gmail.com
 
-
+<div class=class="highlight highlight-text-html-php">
+<pre>
 USES:
 
 if you want to inherit the whole class:
@@ -28,5 +29,6 @@ $DarkMeta->URL_GET('http://www.gmail.com:80');
 
 If you want to know if the website is up:
 $DarkMeta->url_heartbeat('http://www.gmail.com:80');
-
+</pre>
+</div>
 
